@@ -1,0 +1,53 @@
+@media(max-width:1000px){
+    .mobile-menu {
+		display: block;
+        margin:7px 5px;
+        padding:0px 5px;
+        color:rgba(255, 255, 255,1);
+	}
+    .icons{
+        width:50%;
+        margin-bottom:50px;
+    }
+    .text-top h1{
+        font-size:32px;
+    }
+    .heading h1{
+        font-size:20px;
+    }
+.header-right{
+    display: none;
+}
+
+}
+@media (max-width: 670px){
+    .icons{
+        width:100%;
+    }
+    body{
+        background-size:200%;
+        background-position:center;
+    }
+	.mobile-menu {
+		display: block;
+        margin:7px 5px;
+        padding:0px 5px;
+        color:rgba(255, 255, 255,1);
+	}
+	.header-right{
+		display: none;
+    }
+    video{
+        width:300px;
+        height:200px;
+    }
+    .text-top h1{
+        font-size:20px;
+    }
+    .main h1{
+        font-size:20px
+    }
+.footer-right{
+    float:left;
+}
+}
